@@ -7,11 +7,12 @@
 
 .card {
     width: 90%;
-    max-width: 550px;
+    max-width: 450px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 8%;
     background: linear-gradient(135deg, #00feba, #5b548a);
+    /* overflow: scroll; */
 }
 
 .search {
@@ -23,9 +24,11 @@
 
 .search input {
     flex: 1;
-    margin: 10px 5px;
-    padding: 10px 25px;
-    border-radius: 40px;
+    /* margin: 10px 5px; */
+    /* padding: 10px 25px; */
+    /* border-radius: 40px; */
+    margin: 2.5rem 1.25rem;
+    padding: 2.5rem;
     border: none;
     outline: none;
     font-size: 21px;
@@ -34,16 +37,16 @@
 .search button {
     margin: 10px 5px;
     background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 0.5em;
+    width: 2.5rem;
+    height: 2.5rem;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
 .search button img {
-    width: 20px;
+    width: 70%;
     object-fit: contain;
 }
 
